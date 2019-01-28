@@ -1,0 +1,416 @@
+
+/*large devices */
+
+
+@media (min-width: 1200px) {
+    .works-content .owl-theme .owl-nav.disabled + .owl-dots {
+        margin-top: -25px;
+    }
+
+    .client-saying {
+        padding: 2% 25%;
+    }
+
+    .testimonials-content .section-heading-white,
+    .contact-content .section-heading-white {
+        padding: 10px 0;
+    }
+}
+
+/*medium devices*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-toggle {
+        position: relative;
+        float: right;
+        margin-right: 15px;
+        padding: 8px 8px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        background-color: #e74c3c;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 0;
+    }
+
+    .navbar-toggle .icon-bar {
+        background-color: white;
+    }
+
+    .navbar-nav {
+        float: left;
+    }
+    .navbar {
+    background: rgba(0,0,0,.7);
+    padding: 0;
+}
+    
+
+    .testimonials-content .section-heading-white,
+    .contact-content .section-heading-white {
+        padding: 0;
+    }
+
+    .about-content h2 {
+        font-size: 32px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Mobile Menu */
+
+    .navbar-toggle {
+        position: relative;
+        float: right;
+        margin-right: 15px;
+        padding: 8px 8px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        background-color: #e74c3c;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 0;
+    }
+
+    .navbar-toggle .icon-bar {
+        background-color: white;
+    }
+
+    .navbar-nav {
+        float: left;
+    }
+    .navbar {
+    background: rgba(0,0,0,.7);
+    padding: 0;
+}
+    .home-slider .owl-carousel .owl-prev span{
+        display: none;
+    } .home-slider .owl-carousel .owl-next span{
+        display: none;
+    }
+    .services-content .section-heading-black {
+        padding: 0;
+    }
+
+    .section-heading-black p,
+    .section-heading-white p {
+        padding: 5px 15%;
+    }
+
+    .section-heading-black h2,
+    .section-heading-white h2 {
+        font-size: 32px;
+    }
+
+    .section-heading-white,
+    .section-heading-black {
+        padding: 0;
+    }
+
+    .post-img img {
+        width: 100%;
+    }
+
+    .contact-form {
+        padding: 0 20.5%;
+    }
+
+    .about-content h2 {
+        font-size: 26px;
+    }
+}
+
+/*small devices*/
+
+@media (min-width: 520px) and (max-width: 767px) {
+
+    /*Mobile Menu*/
+    .navbar-toggle {
+        position: relative;
+        float: right;
+        margin-right: 15px;
+        padding: 8px 8px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        background-color: #e74c3c;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 0;
+    }
+
+    .navbar-toggle .icon-bar {
+        background-color: white;
+    }
+
+    .navbar-nav {
+        float: left;
+    }
+    .navbar {
+    background: rgba(0,0,0,.7);
+    padding: 0;
+}
+.home-slider .owl-carousel .owl-prev span{
+        display: none;
+    } .home-slider .owl-carousel .owl-next span{
+        display: none;
+    }
+    .slider-content img {
+        min-height: 490px;
+    }
+
+    .slide-content .slide-desc {
+        margin: 30px 10%;
+    }
+
+    .services-content .section-heading-black {
+        padding: 0;
+    }
+
+    .section-heading-black p,
+    .section-heading-white p {
+        padding: 5px 15%;
+    }
+
+    .section-heading-black h2,
+    .section-heading-white h2 {
+        font-size: 32px;
+    }
+
+    .section-heading-white,
+    .section-heading-black {
+        padding: 0;
+    }
+
+    .post-img img {
+        width: 100%;
+    }
+
+    .contact-form {
+        padding: 0 20.5%;
+    }
+
+    .about-content h2 {
+        font-size: 26px;
+    }
+
+    .btn-general {
+        border-radius: 0;
+        padding: 10px 70px;
+        margin: 0 5px;
+    }
+
+    .home-slider .owl-carousel.owl-drag .owl-item {
+        max-height: 510px;
+    }
+
+}
+
+/*Extra Small Devices*/
+@media (min-width: 320px) and (max-width: 519px) {
+    .navbar-toggle {
+        position: relative;
+        float: right;
+        margin-right: 15px;
+        padding: 8px 8px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        background-color: #e74c3c;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 0;
+    }
+
+    .navbar-toggle .icon-bar {
+        background-color: white;
+    }
+
+    .navbar-nav {
+        float: left;
+    }
+    .navbar {
+    background: rgba(0,0,0,.7);
+    padding: 0;
+}
+.home-slider .owl-carousel .owl-prev span{
+        display: none;
+    } .home-slider .owl-carousel .owl-next span{
+        display: none;
+    }
+    .corporate-nav-wrapper {
+        padding: 0;
+    }
+
+    .slide-content h2 {
+        font-size: 30px;
+    }
+
+    .slide-buttons a {
+        font-size: 14px;
+    }
+
+    .slider-content img {
+        min-height: 490px;
+    }
+
+    .slide-content .slide-desc {
+        margin: 30px 10%;
+    }
+
+    .services-content .section-heading-black {
+        padding: 0;
+    }
+
+    .section-heading-black p,
+    .section-heading-white p {
+        padding: 5px 15%;
+    }
+
+    .section-heading-black h2,
+    .section-heading-white h2 {
+        font-size: 32px;
+    }
+
+    .section-heading-white,
+    .section-heading-black {
+        padding: 0;
+    }
+
+    .post-img img {
+        width: 100%;
+    }
+
+    .contact-form {
+        padding: 0 20.5%;
+    }
+
+    .about-content h2 {
+        font-size: 26px;
+    }
+
+    .btn-general {
+        padding: 1.5% 10%;
+    }
+
+    .home-slider .owl-carousel.owl-drag .owl-item {
+        max-height: 510px;
+    }
+
+    .client-saying {
+        padding: 2% 5%;
+    }
+
+    .contact-form {
+        padding: 0;
+    }
+
+    .about-content {
+        text-align: center;
+    }
+}
+
+@media (max-width: 319px) {
+    .navbar-toggle {
+        position: relative;
+        float: right;
+        margin-right: 15px;
+        padding: 8px 8px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        background-color: #e74c3c;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 0;
+    }
+
+    .navbar-toggle .icon-bar {
+        background-color: white;
+    }
+
+    .navbar-nav {
+        float: left;
+    }
+    .navbar {
+    background: rgba(0,0,0,.7);
+    padding: 0;
+}
+.home-slider .owl-carousel .owl-prev span{
+        display: none;
+    } .home-slider .owl-carousel .owl-next span{
+        display: none;
+    }
+    .corporate-nav-wrapper {
+        padding: 0;
+    }
+
+    .slide-content h2 {
+        font-size: 26px;
+    }
+
+    .slide-buttons a {
+        font-size: 14px;
+    }
+
+    .slider-content img {
+        min-height: 490px;
+    }
+
+    .slide-content .slide-desc {
+        margin: 30px 5%;
+    }
+
+    .services-content .section-heading-black {
+        padding: 0;
+    }
+
+    .section-heading-black p,
+    .section-heading-white p {
+        padding: 5px 15%;
+    }
+
+    .section-heading-black h2,
+    .section-heading-white h2 {
+        font-size: 26px;
+    }
+
+    .section-heading-white,
+    .section-heading-black {
+        padding: 0;
+    }
+
+    .post-img img {
+        width: 100%;
+    }
+
+    .blog-content {
+        padding: 15px 0;
+    }
+
+    .contact-form {
+        padding: 0 20.5%;
+    }
+
+    .about-content h2 {
+        font-size: 26px;
+    }
+
+    .btn-general {
+        padding: 1.5% 10%;
+    }
+
+    .home-slider .owl-carousel.owl-drag .owl-item {
+        max-height: 510px;
+    }
+
+    .client-saying {
+        padding: 1% 1%;
+    }
+
+    .contact-form {
+        padding: 0;
+    }
+
+    .about-content {
+        text-align: center;
+    }
+}
